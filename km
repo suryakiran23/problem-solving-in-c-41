@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int
+main ()
+{
+  int a;
+  int b = 1000;
+  float c;
+  printf ("enter no of meters :");
+  scanf ("%d", &a);
+  printf ("one meters in kilometers");
+  c = a * b;
+  printf ("time %f", c);
+
+  return 0;
+}
