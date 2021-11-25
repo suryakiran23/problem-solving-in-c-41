@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+   int f;
+   float c;
+   printf("value of farhs:");
+   scanf("%d",&f);
+   c=(f-32)/1.8;
+   printf("the value in cels: %f",c);
+    return 0;
+}
