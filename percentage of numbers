@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+   float a, b, c, d, e, f, g=500,percentage;
+   
+   printf("enter the value of a :");
+   scanf("%f",&a);
+   printf("enter the value of b :");
+   scanf("%f",&b);
+   printf("enter the vslue of c :");
+   scanf("%f",&c);
+   printf("enter the value of d :");
+   scanf("%f",&d);
+   printf("enter the value of e :");
+   scanf("%f",&e);
+   
+   f=a+b+c+d+e;
+   
+   
+   percentage=(f/g)*100;
+   printf("percentage of 5 subject marks :%f ", percentage);
+   
+   return 0;
+}
+
+
