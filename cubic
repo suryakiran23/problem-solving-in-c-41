@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b=1000000;
+    float c;
+    printf("enter no of cubicmeters :");
+    scanf("%d", &a);
+    printf("one cubicmeters in cubiccentimeters");
+    c=a*b;
+    printf("time %f",c);
+
+    return 0;
+}
+
