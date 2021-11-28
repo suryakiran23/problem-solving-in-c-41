@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c,d,e,total,avg,percentage;
+    printf("enter the value of a :");
+   scanf("%f",&a);
+   printf("enter the value of b :");
+   scanf("%f",&b);
+   printf("enter the vslue of c :");
+   scanf("%f",&c);
+   printf("enter the value of d :");
+   scanf("%f",&d);
+   printf("enter the value of e :");
+   scanf("%f",&e);
+   total=(a+b+c+d+e);
+   avg=(a+b+c+d+e)/5;
+   percentage=(a+b+c+d+e/500)*100;
+   printf("sum :%f",total);
+   printf("\naverage: %f",avg);
+   printf("\npercentage :%f",percentage);
+   
+  
+
+    return 0;
+}
