@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b=1000;
+    float c;
+    printf("enter no of meter :");
+    scanf("%d", &a);
+    printf("one meter in millimeters");
+    c=a*b;
+    printf("time %f",c);
+    return 0;
+}
