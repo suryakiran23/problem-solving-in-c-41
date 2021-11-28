@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char upper, lower;
+    int conversion1, conversion2;
+    printf("Enter the value of upper case :");
+    scanf("%c",&upper);
+    conversion1=upper+32;
+    printf("the value of the lower case : %c",conversion1);
+    return 0;
+}
