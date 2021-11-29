@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("a");
+    scanf("%d",&a);
+    
+    for(a;a<60;a++)
+    {
+    printf("\t %d",a);
+}
+    return 0;
+}
+
