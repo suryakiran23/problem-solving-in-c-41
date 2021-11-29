@@ -2,7 +2,7 @@
 
 int main()
 {
-    float a,b,c,d,e,total,avg,percentage;
+    float a,b,c,d,e,total,avg,percentage,cgpa;
     printf("enter the value of a :");
    scanf("%f",&a);
    printf("enter the value of b :");
@@ -15,12 +15,25 @@ int main()
    scanf("%f",&e);
    total=(a+b+c+d+e);
    avg=(a+b+c+d+e)/5;
-   percentage=(a+b+c+d+e/500)*100;
+   percentage=(total/500)*100;
+   cgpa=percentage/9.5;
    printf("sum :%f",total);
    printf("\naverage: %f",avg);
    printf("\npercentage :%f",percentage);
+   if(cgpa>6)
+   {
+   printf("\n passed cgpa:%f",cgpa);
+   }
+   else
+   {
+       printf("falied cgpa %f",cgpa);
+   }
+   
    
   
 
     return 0;
 }
+
+
+
