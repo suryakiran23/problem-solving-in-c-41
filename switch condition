@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+    int a, b, c, d, e, ch;
+    printf("enter your choice: ");
+    scanf("%d %d %d",&ch,&a,&b);
+    c=a*b;
+    d=a*b;
+    e=a*b;
+    switch(ch)
+    {
+        case 1:
+        printf("meter to kilometers: %d",c);
+        break;
+        case 2:
+        printf("cm to mm: %d",d);
+        break;
+        case 3:
+        printf("min to sec: %d",e);
+        break;
+    }
+    
+    return 0;
+    
+}
