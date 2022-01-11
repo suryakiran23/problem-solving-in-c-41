@@ -22,12 +22,7 @@ int main()
     {
         printf("c is max");
     }
-  
-
-
-
-
-    return 0;
+   return 0;
 }
 
 
