@@ -1,0 +1,23 @@
+#include<stdio.h>
+int verify(int a,int b)
+{
+if (a>b)
+{
+    return a;
+}
+else (b>a);
+{
+    return b;
+}
+
+}
+int main()
+{
+    int i,j,maximum;
+    printf("the value of two numbers ");
+    scanf("%d%d",&i,&j);
+    maximum= verify(i,j);
+    printf("%d is maximum",maximum);
+    return 0;
+    
+}
